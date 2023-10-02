@@ -27,7 +27,7 @@ yarn add java-parser --dev
 ### Parsing
 
 ```javascript
-const { parse } = require("java-parser");
+const { parse } = require("@cf-nkozlov/java-parser");
 const javaText = `
 public class HelloWorldExample{
   public static void main(String args[]){
@@ -48,7 +48,7 @@ See relevant [Chevrotain documentation on CST Traversal](http://chevrotain.io/do
 const {
   BaseJavaCstVisitor,
   BaseJavaCstVisitorWithDefaults
-} = require("java-parser");
+} = require("@cf-nkozlov/java-parser");
 
 // Use "BaseJavaCstVisitor" if you need to implement all the visitor methods yourself.
 class LambdaArrowsPositionCollector extends BaseJavaCstVisitorWithDefaults {

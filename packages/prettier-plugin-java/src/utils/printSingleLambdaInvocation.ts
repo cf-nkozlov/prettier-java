@@ -1,4 +1,4 @@
-import { ArgumentListCstNode, IToken } from "java-parser";
+import { ArgumentListCstNode, IToken } from "@cf-nkozlov/java-parser";
 import { builders } from "prettier/doc";
 import { isSingleArgumentLambdaExpressionWithBlock } from "./expressions-utils";
 import { printTokenWithComments } from "../printers/comments/format-comments";

@@ -3,7 +3,7 @@ import {
   CstChildrenDictionary,
   CstElement,
   CstNode
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import { Doc } from "prettier";
 import { printNodeWithComments } from "./printers/comments/format-comments";
 

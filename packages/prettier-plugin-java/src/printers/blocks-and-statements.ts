@@ -69,7 +69,7 @@ import {
   VariableAccessCtx,
   WhileStatementCtx,
   YieldStatementCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import { Doc } from "prettier";
 
 const { line, softline, hardline } = builders;

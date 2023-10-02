@@ -39,7 +39,7 @@ import {
   InterfacePermitsCtx,
   IToken,
   NormalInterfaceDeclarationCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import Doc = builders.Doc;
 
 const { line, softline, hardline } = builders;

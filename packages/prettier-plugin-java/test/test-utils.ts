@@ -7,7 +7,7 @@ import klawSync from "klaw-sync";
 import { spawnSync } from "child_process";
 
 import { createPrettierDoc } from "../src/cst-printer";
-import { parse } from "java-parser";
+import { parse } from "@cf-nkozlov/java-parser";
 import { format, doc } from "prettier";
 
 const { printDocToString } = doc.printer;

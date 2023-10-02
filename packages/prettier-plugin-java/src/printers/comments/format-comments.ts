@@ -1,5 +1,5 @@
 import { builders } from "prettier/doc";
-import { CstElement, CstNode, IToken } from "java-parser";
+import { CstElement, CstNode, IToken } from "@cf-nkozlov/java-parser";
 import { CstNodeLocation } from "@chevrotain/types";
 import { isCstElementOrUndefinedIToken } from "../../types/utils";
 import { Doc } from "prettier";

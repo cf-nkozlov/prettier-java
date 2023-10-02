@@ -6,7 +6,7 @@ import {
   CstNode,
   IToken,
   TypeArgumentsCstNode
-} from "java-parser/api";
+} from "@cf-nkozlov/java-parser/api";
 
 export function isCstNode(tokenOrNode: CstElement): tokenOrNode is CstNode {
   return !isIToken(tokenOrNode);

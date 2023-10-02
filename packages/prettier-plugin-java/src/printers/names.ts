@@ -12,7 +12,7 @@ import {
   PackageOrTypeNameCtx,
   TypeIdentifierCtx,
   TypeNameCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 
 export class NamesPrettierVisitor extends BaseCstPrettierPrinter {
   typeIdentifier(ctx: TypeIdentifierCtx) {

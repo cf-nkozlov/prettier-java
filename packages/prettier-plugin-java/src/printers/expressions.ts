@@ -46,7 +46,7 @@ import {
   UnaryExpressionCtx,
   UnaryExpressionNotPlusMinusCtx,
   UnqualifiedClassInstanceCreationExpressionCtx
-} from "java-parser/api";
+} from "@cf-nkozlov/java-parser/api";
 
 import forEach from "lodash/forEach";
 import { builders } from "prettier/doc";

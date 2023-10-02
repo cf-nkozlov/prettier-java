@@ -7,7 +7,7 @@ import {
   IntegerLiteralCtx,
   IToken,
   LiteralCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import { builders } from "prettier/doc";
 
 const { hardline } = builders;

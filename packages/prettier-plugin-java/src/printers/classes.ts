@@ -88,7 +88,7 @@ import {
   VariableInitializerCtx,
   VariableModifierCtx,
   VariableParaRegularParameterCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import { Doc } from "prettier";
 import { isAnnotationCstNode, isTypeArgumentsCstNode } from "../types/utils";
 import { printArgumentListWithBraces } from "../utils";

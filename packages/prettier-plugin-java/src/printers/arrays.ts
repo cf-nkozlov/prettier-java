@@ -1,7 +1,7 @@
 import {
   ArrayInitializerCtx,
   VariableInitializerListCtx
-} from "java-parser/api";
+} from "@cf-nkozlov/java-parser/api";
 import {
   printArrayList,
   rejectAndConcat,

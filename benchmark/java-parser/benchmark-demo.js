@@ -13,9 +13,9 @@ const version = cp
   .toString()
   .replace("\n", "");
 niv.install(`java-parser@${version}`);
-niv.install("java-parser@0.0.2");
+niv.install("@cf-nkozlov/java-parser@0.0.2");
 
-const oparser = require("java-parser@0.0.2");
+const oparser = require("@cf-nkozlov/java-parser@0.0.2");
 const parser = require(`java-parser@${version}`);
 
 const samplesDir = path.resolve(

@@ -12,7 +12,7 @@ import {
   LambdaParametersWithBracesCtx,
   MethodModifierCstNode,
   TypeArgumentsCstNode
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import findIndex from "lodash/findIndex";
 import findLastIndex from "lodash/findLastIndex";
 import forEach from "lodash/forEach";

@@ -1,4 +1,4 @@
-import { CstElement, IToken } from "java-parser";
+import { CstElement, IToken } from "@cf-nkozlov/java-parser";
 
 type LeadingComments<T extends CstElement> = T & {
   leadingComments: IToken[];

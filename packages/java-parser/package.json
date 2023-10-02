@@ -1,5 +1,5 @@
 {
-  "name": "java-parser",
+  "name": "@cf-nkozlov/java-parser",
   "version": "2.0.5",
   "description": "Java Parser in JavaScript",
   "main": "src/index.js",
@@ -14,5 +14,8 @@
     "test": "yarn run clone-samples && yarn run test:execute",
     "test:execute": "mocha \"test/**/*-spec.js\"",
     "clone-samples": "node ./scripts/clone-samples"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

@@ -1,5 +1,5 @@
 "use strict";
-import { IToken } from "java-parser";
+import { IToken } from "@cf-nkozlov/java-parser";
 import { builders } from "prettier/doc";
 import Doc = builders.Doc;
 

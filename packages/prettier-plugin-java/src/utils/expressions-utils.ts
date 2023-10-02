@@ -1,4 +1,4 @@
-import { ArgumentListCstNode } from "java-parser";
+import { ArgumentListCstNode } from "@cf-nkozlov/java-parser";
 
 export function isArgumentListSingleLambda(
   argumentList: ArgumentListCstNode[] | undefined

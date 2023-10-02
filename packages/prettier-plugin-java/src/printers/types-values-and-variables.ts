@@ -35,7 +35,7 @@ import {
   TypeVariableCtx,
   WildcardBoundsCtx,
   WildcardCtx
-} from "java-parser/api";
+} from "@cf-nkozlov/java-parser/api";
 import { BaseCstPrettierPrinter } from "../base-cst-printer";
 import {
   isAnnotationCstNode,

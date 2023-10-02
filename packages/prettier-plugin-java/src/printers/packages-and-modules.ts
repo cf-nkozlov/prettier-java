@@ -29,7 +29,7 @@ import {
   RequiresModuleDirectiveCtx,
   TypeDeclarationCtx,
   UsesModuleDirectiveCtx
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 import { isOrdinaryCompilationUnitCtx } from "../types/utils";
 
 const { line, hardline, indent, group } = builders;

@@ -3,7 +3,7 @@ import {
   BinaryExpressionCtx,
   IToken,
   UnaryExpressionCstNode
-} from "java-parser";
+} from "@cf-nkozlov/java-parser";
 
 export function handleCommentsBinaryExpression(ctx: BinaryExpressionCtx) {
   moveOperatorLeadingCommentsToNextExpression(ctx);

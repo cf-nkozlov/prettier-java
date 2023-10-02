@@ -43,7 +43,7 @@ jobs:
           npm i
           npm link prettier-plugin-java
           mv package.json package.json.old
-          jq '.dependencies["prettier-plugin-java"] = "./node_modules/prettier-plugin-java"' package.json.old | cat > package.json
+          jq '.dependencies["@cf-nkozlov/prettier-plugin-java"] = "./node_modules/prettier-plugin-java"' package.json.old | cat > package.json
       - name: Build the artifacts
         run: |
           cd $GITHUB_WORKSPACE/prettier
