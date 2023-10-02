@@ -213,7 +213,10 @@ public final class ArrayTable<R, C, V>
     }
 
     K getKey(int index) {
-      return keyIndex.keySet().asList().get(index);
+      return keyIndex
+        .keySet()
+        .asList()
+        .get(index);
     }
 
     abstract String getKeyRole();

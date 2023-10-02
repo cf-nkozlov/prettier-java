@@ -74,7 +74,7 @@ import {
   sortTokens
 } from "./printer-utils";
 
-const { ifBreak, line, softline, indentIfBreak } = builders;
+const { ifBreak, line, softline, hardline, indentIfBreak } = builders;
 
 export class ExpressionsPrettierVisitor extends BaseCstPrettierPrinter {
   expression(ctx: ExpressionCtx, params: any) {
@@ -346,7 +346,7 @@ export class ExpressionsPrettierVisitor extends BaseCstPrettierPrinter {
         ctx.primarySuffix[0].children.Dot !== undefined &&
         ctx.primaryPrefix[0].children.newExpression !== undefined
       ) {
-        suffixes.push(softline);
+        suffixes.push(hardline);
       }
       suffixes.push(
         this.visit(ctx.primarySuffix[0], {
@@ -377,7 +377,7 @@ export class ExpressionsPrettierVisitor extends BaseCstPrettierPrinter {
           ctx.primarySuffix[i].children.Dot !== undefined &&
           ctx.primarySuffix[i - 1].children.methodInvocationSuffix !== undefined
         ) {
-          suffixes.push(softline);
+          suffixes.push(i < 3 ? softline : hardline);
         }
         suffixes.push(this.visit(ctx.primarySuffix[i]));
       }

@@ -1,7 +1,13 @@
 public class BreakLongFunctionCall {
 
+  public void notChainCall() {
+    System.out.print("Not Chained");
+  }
+
   public void doSomething() {
-    return new Object().something().more();
+    return new Object()
+      .something()
+      .more();
   }
 
   public void doSomethingLongNew() {
@@ -53,5 +59,27 @@ public class BreakLongFunctionCall {
       .but()
       .not()
       .something();
+  }
+
+  public void chainCall() {
+    a.b.c.d.e.f;
+
+    that.fine();
+
+    that.is().fine();
+
+    predictDropResponse.getSendResult().isFatalError;
+
+    that
+      .is()
+      .not()
+      .fine()
+      .unchained();
+
+    a()
+      .b()
+      .c()
+      .d()
+      .e();
   }
 }

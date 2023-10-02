@@ -181,7 +181,9 @@ public class Variables {
       new Object();
 
     Object aParticularlyLongAndObnoxiousNameForIllustrativePurposes =
-      new Object().other().methods();
+      new Object()
+        .other()
+        .methods();
 
     Object aParticularlyLongAndObnoxiousNameForIllustrativePurposes =
       new Object()
